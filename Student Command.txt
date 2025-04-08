@@ -1,0 +1,13 @@
+create database student;
+
+use student;
+
+create table admin(Name varchar(20) PRIMARY KEY,Password varchar(10));
+
+insert into admin(Name,Password) values('Ayush','1122');
+
+create table details(Student_Name varchar(20),Father_Name varchar(30),Mother_Name varchar(30),D_O_B varchar(10),Gender varchar(10),UID varchar(10) PRIMARY KEY,Phone varchar(20),E_mail varchar(30));
+
+select * from details;
+
+select * from admin;
